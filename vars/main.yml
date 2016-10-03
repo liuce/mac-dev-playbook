@@ -17,8 +17,8 @@ homebrew_installed_packages:
   - ansible
   - autoconf
   - bash-completion
-  - boot2docker
-  - docker
+  # - boot2docker
+  # - docker
   - gettext
   - git
   - go
@@ -30,22 +30,26 @@ homebrew_installed_packages:
   - packer
   - python
   - sqlite
-  - mysql
-  - npm
-  - php56
-  - php56-xdebug
-  - ssh-copy-id
+  # - npm
+  - ssh-copy-id  #copy ssh to remote
   - cowsay
   - ios-sim
   - readline
-  - subversion
+  # - subversion
   - kdiff3
   - openssl
   - pv
   - drush
   - wget
   - wrk
+
   - brew-cask
+  - gradle
+  - go
+  - imagemagick
+  - graphicsmagick
+  - nvm
+  - jboss-forge
 
 homebrew_taps:
   - caskroom/cask
@@ -56,29 +60,86 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
+  - alfred
+  - android-studio
+  - arduino
+  - atom
+  - baiducloud
+  - balsamiq-mockups
+  - brackets
+  - calibre
+  - docker
+  - eclipse-jee
+  - go2shell
   - google-chrome
-  - dropbox
-  - fing
-  - firefox
-  - handbrake
-  - karabiner
-  - limechat
-  - licecap
-  - macvim
-  - menumeters
-  - nvalt
+  - intellij-idea
+  - intellij-idea-ce
+  - iterm2
+  - jeromelebel-mongohub
+  - kitematic
+  - licecap  #video record
+  - mesasqlite
+  - rdm
+  - rescuetime
+  - sencha
   - sequel-pro
-  - skype
-  - skitch
-  - seil
+  - shadowsocksx-ng
+  - sourcetree
+  - spectacle
   - sublime-text # Note - Sublime Text 2 only, at this time...
-  - textmate
-  - timemachineeditor
-  - tower
-  - transmit
+  - virtualbox
+  - vlc
+  - webstorm
+  - zoomus
+  - beyond-compare
   - vagrant
   - vagrant-manager
-  - vlc
-  - virtualbox
+  # - dbeaver-enterprise
+
+
+  # - evernote
+  # - skitch
+  # - bettertouchtool
+  # - fing
+  # - firefox
+  # - handbrake
+  # - karabiner
+  # - limechat
+  # - macvim
+  # - menumeters
+  # - nvalt
+  # - skype
+  # - seil
+  # - textmate
+  # - timemachineeditor
+  # - tower
+  # - transmit
+atom-packages:
+  - atom-beautify
+  - atom-jinja2
+  - color-picker
+  - editorconfig
+  - language-ansible
+  - language-babel
+  - language-ejs
+  - language-gradle
+  - language-nginx
+  - language-rust
+  - language-scala
+  - linter
+  - merge-conflicts
+  - minimap
+  - pigments
+  - sort-lines
+  - support-gbk
+  - symbols-tree-view
+  - terminal-plus
+sdkman:
+  - gradle
+  - grails
+  - groovy
+  - kotlin
+  - maven
+  - sbt
+  - scala
+  - springboot

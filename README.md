@@ -20,7 +20,7 @@ This is a work in progress, and is mostly a means for me to document my current 
 
 ## Included Applications / Configuration
 
-Applications (installed with Homebrew Cask):
+Applications (installed with [Homebrew Cask](http://caskroom.io/)):
 
   - Adium
   - BetterTouchTool
@@ -47,7 +47,7 @@ Applications (installed with Homebrew Cask):
   - VirtualBox
   - VLC
 
-Packages (installed with Homebrew):
+Packages (installed with Homebrew, [braumeister](http://braumeister.org/)):
 
   - ansible
   - autoconf
